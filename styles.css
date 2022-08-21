@@ -1,6 +1,6 @@
 body {
     font-family: Roboto;
-    margin: 0;  
+    margin: 0px;  
 }
 
 img {
@@ -16,10 +16,10 @@ a:visited {
     color: lightgrey;
 }
 
+
+
 .hero-section {
-    background-color: #1F2937;
-    color: #F9FAF8;
-    padding: 0;
+
 }
 
 .hero-section ul {
@@ -30,6 +30,9 @@ a:visited {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 0;
 }
 
 .header-links {
@@ -37,3 +40,4 @@ a:visited {
     justify-content: flex-end;
     gap: 16px;
 }
+
