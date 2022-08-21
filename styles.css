@@ -12,9 +12,15 @@ h3 {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 a:visited {
     color: lightgrey;
 }
+
+/** Menu styling **/
 
 .header {
     display: flex;
@@ -22,7 +28,8 @@ a:visited {
     justify-content: space-between;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 0 20%;
+    padding: 0 10%;
+    padding-bottom: 20px;
 }
 
 .header ul {
@@ -35,3 +42,18 @@ a:visited {
     gap: 16px;
 }
 
+/** Section one styling **/
+
+.block-one {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    padding: 0 10%
+}
+
+.block-one-text-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
