@@ -1,6 +1,19 @@
 body {
     font-family: Roboto;
+    margin: 0;  
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+h3 {
     margin: 0;
+}
+
+a:visited {
+    color: lightgrey;
 }
 
 .hero-section {
@@ -9,26 +22,18 @@ body {
     padding: 0;
 }
 
-.header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
 .hero-section ul {
     list-style: none;
 }
 
-.header-logo {
-    justify-content: flex-start;
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header-links {
     display: flex;
-    align-items: flex-end;
+    justify-content: flex-end;
     gap: 16px;
-}
-
-h3 {
-    margin: 0;
 }
