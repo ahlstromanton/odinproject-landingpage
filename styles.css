@@ -1,6 +1,6 @@
 body {
     font-family: Roboto;
-    margin: 0px;  
+    margin: 0px;
 }
 
 img {
@@ -16,23 +16,17 @@ a:visited {
     color: lightgrey;
 }
 
-
-
-.hero-section {
-
-}
-
-.hero-section ul {
-    list-style: none;
-}
-
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 0;
+    padding: 0 20%;
+}
+
+.header ul {
+    list-style: none;
 }
 
 .header-links {
