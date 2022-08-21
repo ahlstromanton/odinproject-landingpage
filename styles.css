@@ -51,9 +51,20 @@ a:visited {
     padding: 0 10%
 }
 
+.block-one button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: none;
+    font-weight: 700;
+    width: 25%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
 .block-one-text-items {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: left;
+    gap: 20px;
 }
