@@ -7,22 +7,26 @@ body {
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 0;
-    justify-content: ;
 }
 
 .header {
-    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .hero-section ul {
     list-style: none;
 }
 
+.header-logo {
+    justify-content: flex-start;
+}
+
 .header-links {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 8px;
+    align-items: flex-end;
+    gap: 16px;
 }
 
 h3 {
