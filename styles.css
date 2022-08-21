@@ -4,8 +4,14 @@ body {
 }
 
 img {
-    width: 400px;
-    height: auto;
+    width: auto;
+    height: 300px;
+}
+
+h1 {
+    font-weight: 700px;
+    font-size: 52px;
+    margin: 0px;
 }
 
 h3 {
@@ -48,7 +54,9 @@ a:visited {
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
-    padding: 0 10%
+    padding: 5% 10%;
+    justify-content: space-between;
+    gap: 10%;
 }
 
 .block-one button {
@@ -58,7 +66,7 @@ a:visited {
     font-weight: 700;
     width: 25%;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px 5px;
 }
 
 .block-one-text-items {
@@ -66,5 +74,8 @@ a:visited {
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    gap: 20px;
+}
+
+.block-one img {
+    border-radius: 10px;
 }
