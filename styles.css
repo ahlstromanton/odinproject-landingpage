@@ -152,23 +152,23 @@ a:visited {
 
 .block-four {
     color: #F9FAF8;
-    margin: 5% 20%;
+    margin: 5% 10%;
     background-color: #3882F6;
     padding: 4% 10%;
     border-radius: 10px;
     display: flex;
+    justify-content: space-between;
 }
 
 .text-section {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    margin-right: 10%;
 }
 
 .cta-section {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
 }
 
