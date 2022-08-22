@@ -181,3 +181,14 @@ a:visited {
     border-radius: 10px;
     font-weight: 700;
 }
+
+/** Footer styling **/
+
+.footer {
+    height: 70px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
