@@ -100,6 +100,7 @@ a:visited {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+    gap: 20px;
 }
 
 .info-block {
@@ -141,4 +142,42 @@ a:visited {
     font-weight: 700;
     font-size: 20px;
     margin: 0;
+}
+
+/** Section four styling **/
+
+.block-four {
+    color: #F9FAF8;
+    margin: 5% 20%;
+    background-color: #3882F6;
+    padding: 4% 10%;
+    border-radius: 10px;
+    display: flex;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-right: 10%;
+}
+
+.cta-section {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.cta-section button {
+    height: 36px;
+    width: 108px;
+    padding: 10%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border:solid #E5E7EB;
+    border-radius: 10px;
+    font-weight: 700;
 }
